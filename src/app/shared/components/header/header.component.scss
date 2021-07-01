@@ -3,18 +3,12 @@
   position: absolute;
   top: 0;
   width: 100%;
-  height: 30px;
 }
 
-.exit {
-  margin-left: -20px;
-  margin-right: 0px;
-  font-size: large;
-}
 
 mat-toolbar {
   background: linear-gradient(to right, #1e5eb3, #1db6e7);
-  height: 30px;
+  height: 35px;
 }
 
 .appName {
