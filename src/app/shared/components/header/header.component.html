@@ -1,3 +1,15 @@
-<div class="header">
-  <h4>header</h4>
+<div>
+  <mat-toolbar>
+    <a mat-button class="appName" routerLink="/">
+      <span>Lucas <b style="color:#15202e">Peixoto</b></span>
+    </a>
+    <span class="example-spacer"></span>
+    <div fxShow="true" fxHide.lt-md="true">
+      <a mat-button class="nav-click" routerLink="/personal">Pessoal</a>
+      <a mat-button class="nav-click" routerLink="/professional">Profissional</a>
+      <a mat-button class="nav-click" routerLink="/job">Serviços</a>
+      {{ ' '}}
+      {{ ' '}}
+    </div>
+  </mat-toolbar>
 </div>
