@@ -1,7 +1,6 @@
 .header {
   background: linear-gradient(to right, #1e5eb3, #1db6e7);
   position: absolute;
-  top: 0;
   width: 100%;
 }
 
@@ -13,11 +12,18 @@ mat-toolbar {
 
 .appName {
   font-size: 110%;
-  color: #fff;
+
+  span {
+    color: #bbbbbb;
+  }
+
+  b {
+    color:#444444;
+  }
 }
 
 .nav-click {
-  color: rgb(29, 27, 27);
+  color: #1d1b1b;
   font-size: large;
   font-weight: bold;
 }
