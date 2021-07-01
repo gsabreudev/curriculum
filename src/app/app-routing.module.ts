@@ -6,13 +6,18 @@ import { ProfessionalComponent } from './professional/professional.component';
 
 const AppRoutes: Routes = [
   { path: '', redirectTo: 'personal', pathMatch: 'full' },
+  {
+    path: 'https://lucasspeixoto.github.io/curriculum',
+    redirectTo: 'personal',
+    pathMatch: 'full',
+  },
   { path: 'personal', component: PersonalComponent },
   { path: 'professional', component: ProfessionalComponent },
-  { path: 'job', component: JobComponent }
+  { path: 'job', component: JobComponent },
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(AppRoutes)],
   exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}
