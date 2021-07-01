@@ -7,7 +7,7 @@ import { ProfessionalComponent } from './professional/professional.component';
 const AppRoutes: Routes = [
   { path: '', redirectTo: 'personal', pathMatch: 'full' },
   {
-    path: 'https://lucasspeixoto.github.io/curriculum',
+    path: 'curriculum',
     redirectTo: 'personal',
     pathMatch: 'full',
   },
