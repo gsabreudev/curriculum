@@ -2,14 +2,9 @@
   background: linear-gradient(to right, #999da1, #d5dbe2);
   min-height: 100%;
 }
-
 @media (max-width: 530px) {
-  mat-toolbar {
-    display: none;
-  }
-
   #content{
     background: linear-gradient(to right, #999da1, #d5dbe2);
   }
-
 }
+

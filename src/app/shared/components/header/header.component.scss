@@ -4,12 +4,10 @@
   width: 100%;
 }
 
-
 mat-toolbar {
-  background: linear-gradient(to right, #1e5eb3, #1db6e7);
+  background: linear-gradient(#1e5eb3, #1db6e7);
   height: 35px;
 }
-
 
 .headerText {
   font-size: 110%;
@@ -47,22 +45,12 @@ button {
   min-width: min-content;
 }
 
-.example-icon {
-  padding: 0 14px;
-}
-
 .example-spacer {
   flex: 1 1 auto;
 }
 
-.mat-sidenav-content {
-  font-size: 200%;
-  text-align: center;
-}
-
 @media (max-width: 530px) {
-  mat-toolbar {
+  #content {
     display: none;
   }
-
 }
