@@ -6,11 +6,6 @@ import { ProfessionalComponent } from './professional/professional.component';
 
 const AppRoutes: Routes = [
   { path: '', redirectTo: 'personal', pathMatch: 'full' },
-  {
-    path: 'curriculum',
-    redirectTo: 'personal',
-    pathMatch: 'full',
-  },
   { path: 'personal', component: PersonalComponent },
   { path: 'professional', component: ProfessionalComponent },
   { path: 'job', component: JobComponent },

@@ -10,7 +10,8 @@ mat-toolbar {
   height: 35px;
 }
 
-.appName {
+
+.headerText {
   font-size: 110%;
 
   span {
@@ -26,6 +27,9 @@ mat-toolbar {
   color: #1d1b1b;
   font-size: large;
   font-weight: bold;
+  img {
+    margin-top: 5%
+  }
 }
 
 div {
@@ -54,4 +58,11 @@ button {
 .mat-sidenav-content {
   font-size: 200%;
   text-align: center;
+}
+
+@media (max-width: 530px) {
+  mat-toolbar {
+    display: none;
+  }
+
 }

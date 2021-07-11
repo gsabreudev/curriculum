@@ -1,15 +1,32 @@
-
+<div id="content">
   <mat-toolbar>
-    <a mat-button class="appName" routerLink="/">
-      <span>Lucas <b >Peixoto</b></span>
+    <a mat-button id="headerTitle" class="headerText">
+      <span>Lucas <b>Peixoto</b></span>
     </a>
     <span class="example-spacer"></span>
+    <a mat-button id="headerContactText"class="headerText">
+      <span><b><i>Contatos</i></b></span>
+    </a>
     <div fxShow="true" fxHide.lt-md="true">
-      <a mat-button class="nav-click" routerLink="/personal">Pessoal</a>
-      <a mat-button class="nav-click" routerLink="/professional">Profissional</a>
-      <a mat-button class="nav-click" routerLink="/job">Serviços</a>
+
+      <a class="navbar-brand nav-click" target="_blank" href="https://www.linkedin.com/in/lucassacramoni/">
+        <img src="./assets/images/linkedin.svg" />
+      </a>
+      <a class="navbar-brand nav-click" target="_blank" href="https://www.facebook.com/lucassacramoni/">
+        <img src="./assets/images/facebook.svg" />
+      </a>
+      <a class="navbar-brand nav-click" target="_blank" href="https://www.instagram.com/lucas.speixoto/">
+        <img src="./assets/images/instagram.svg" />
+      </a>
+      <a class="navbar-brand nav-click" target="_blank" href="https://github.com/lucasspeixoto">
+        <img src="./assets/images/github.svg" />
+      </a>
+      <a class="navbar-brand nav-click" target="_blank" href="https://api.whatsapp.com/send?phone=5519982621117&text=Ol%C3%A1%21+Gostaria+de+conhecer+os+servi%C3%A7os&lang=pt_pt">
+        <img src="./assets/images/whatsapp.svg" />
+      </a>
       {{ ' '}}
       {{ ' '}}
     </div>
   </mat-toolbar>
+</div>
 
