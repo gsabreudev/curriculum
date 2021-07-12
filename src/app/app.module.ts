@@ -9,17 +9,12 @@ import { MaterialModule } from './shared/modules/material.module';
 import { HeaderComponent } from './shared/components/header/header.component';
 import { FooterComponent } from './shared/components/footer/footer.component';
 import { PersonalComponent } from './personal/personal.component';
-import { ProfessionalComponent } from './professional/professional.component';
-import { JobComponent } from './job/job.component';
-
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    PersonalComponent,
-    ProfessionalComponent,
-    JobComponent
+    PersonalComponent
   ],
   imports: [
     BrowserModule,

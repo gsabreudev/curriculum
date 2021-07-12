@@ -1,12 +1,10 @@
 .personal-card {
   background-color: #b4b4b4;
   height: auto;
-  /* width: 40vw; */
   width: auto;
   margin-left: -5vw;
-   margin-right: -5vw;
+  margin-right: -5vw;
   margin-top: 5vh;
-  /* margin-left: 20vw; */
   border-radius: 25px;
   padding-bottom: 1px;
   box-shadow: 2px 2px 5px #1e5eb3;
@@ -42,7 +40,8 @@
     font-style: italic;
   }
 
-  p, ul {
+  p,
+  ul {
     margin-left: 3vh;
     margin-right: 3vh;
     margin-top: 1vh;
@@ -84,11 +83,13 @@
   #card-contacts {
     display: inline;
     width: 100%;
+
     #card-contacts-item {
       margin-left: 3vh;
       margin-top: 1vh;
     }
   }
+
   .personal-card {
     width: auto;
     margin-left: -8vw;
@@ -100,10 +101,10 @@
   .image-crop {
     display: none;
   }
+
   .personal-card {
     width: auto;
     margin-left: -8vw;
     margin-right: -8vw;
   }
 }
-
