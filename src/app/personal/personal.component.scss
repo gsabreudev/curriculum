@@ -1,5 +1,5 @@
 .personal-card {
-  background-color: #b4b4b4;
+  background-color: linear-gradient(to right, #eeeded, #d3daeb);
   height: auto;
   width: auto;
   margin-left: -5vw;
@@ -7,7 +7,7 @@
   margin-top: 5vh;
   border-radius: 25px;
   padding-bottom: 1px;
-  box-shadow: 2px 2px 5px #1e5eb3;
+  box-shadow: 0.5px 1px 5px #1e5eb3;
 
   h1 {
     color: white;
@@ -22,8 +22,11 @@
   }
 }
 
-ul{
-  padding-left:5vw;
+ul {
+  padding-left: 2vw;
+  ul {
+    padding-left: 0.2vw;
+  }
 }
 
 #card-contacts {
@@ -46,13 +49,10 @@ ul{
 
   p,
   ul {
-    margin-left: 3vh;
-    margin-right: 3vh;
-    margin-top: 1vh;
+    margin: 0.5vh 3vh 1vh 3vh;
     width: 90%;
     color: #1e5eb3;
     font-weight: 500;
-
   }
 
   ul {
@@ -71,7 +71,7 @@ ul{
   margin-bottom: 20px;
   overflow: hidden;
   border-radius: 50%;
-  box-shadow: 1px 1px 5px #4069e2;
+  box-shadow: 2px 2px 5px #1e5eb3;
 }
 
 #avatar {
