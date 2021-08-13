@@ -1,10 +1,11 @@
 .app {
-  background: linear-gradient(to right, #eeeded, #d3daeb);
+  background: #e0efef;
+  color: #0b1641;
   min-height: 100%;
 }
 @media (max-width: 530px) {
-  #content{
-    background: linear-gradient(to right, #eeeded, #d3daeb);
+  #content {
+    background: #e0efef;
+    color: #0b1641;
   }
 }
-

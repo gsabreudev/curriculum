@@ -1,23 +1,22 @@
 .header {
-  background: linear-gradient(to right, #1e5eb3, #1db6e7);
+  background: linear-gradient(90deg, #35126f 0%, #00b8c4 100%);
   position: absolute;
   width: 100%;
 }
 
 mat-toolbar {
-  background: linear-gradient(#1e5eb3, #1db6e7);
+  background: linear-gradient(90deg, #35126f 0%, #00b8c4 100%);
   height: 35px;
 }
 
 .headerText {
   font-size: 110%;
 
-  span {
-    color: #bbbbbb;
+  .name {
+    color:#acacac;
   }
-
-  b {
-    color:#444444;
+  .contacts {
+    color: #3a3a3a;
   }
 }
 
